@@ -50,10 +50,6 @@ def print_sorted(crops, key):
         mytable.add_row([i, s.name, list_table[int(key[0])-1], list_table[int(key[1])-1], list_table[int(key[2])-1], list_table[int(key[3])-1]])
     print(mytable)
 
-
-    #list_table = [int(s.income_calculated), int(s.plan_income), int(s.farm_cost), int(s.storage_cost)]
-    #list_table[key[0]-1], list_table[key[1]-1], list_table[key[2]-1], list_table[key[3]-1]
-
 def generate_output(crops):
     output = []
     for crop in crops:
